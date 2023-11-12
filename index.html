@@ -134,7 +134,7 @@
           let countList = []
           list.forEach((e, i) => {
             let conut = 0
-            e?.game_award.forEach((e2, i2) => {
+            e?.skinsList.forEach((e2, i2) => {
               conut += Number(e2.award_bean)
               if (e2.award_bean, i2 + 1 == e.game_award.length) {
                 countList.push(conut);
